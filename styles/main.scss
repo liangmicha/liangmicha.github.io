@@ -1,0 +1,102 @@
+@import "reset";
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0px;
+  width: 15%;
+  height: 100%;
+  color: #fdfdfd;
+  background-color: #0099CC;
+  span {
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 20px 15px;
+  }
+  .column.rickshaw_legend {
+    width: 80%;
+    color: inherit;
+    background-color: inherit;
+    margin: 0 auto;
+    padding: 0px;
+  }
+}
+
+.chart-wrapper {
+  width: 80%;
+  height: 100%;
+  float: right;
+  padding: 10px 30px 30px 30px;
+  .column {
+    height: 100%;
+    display: inline-block;
+    .rickshaw_graph {
+        height: 90%;
+        width: 100%;
+
+    }
+  }
+}
+
+.legend-title {
+  height: 50px;
+  text-align: center;
+  margin-left: 20px;
+  font-size: 50px;
+}
+
+.legend-title1 {
+  height: 50px;
+  text-align: center;
+  margin: -20px 0 0 20px;
+  font-size: 50px;
+}
+
+.legend-title2 {
+  height: 50px;
+  text-align: center;
+  margin-left: 20px;
+  font-size: 50px;
+}
+
+#vitals-legend1 {
+  .ui-sortable {
+    font-size: 20px;
+    background-color: transparent;
+    margin-bottom: 30px;
+    width: 120%;
+  }
+
+
+}
+
+#cbc-legend {
+  .ui-sortable {
+    font-size: 20px;
+    background-color: transparent;
+    margin-bottom: 30px;
+    width: 120%;
+  }
+
+
+}
+
+#bmp-legend {
+  .ui-sortable {
+    font-size: 20px;
+    background-color: transparent;
+    margin-bottom: 30px;
+    width: 120%;
+  }
+
+
+  .ui-sortable-handle {
+    margin: 5px 5px 5px 5px;
+  }
+}
+

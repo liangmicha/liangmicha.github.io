@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MediDash</title>
+  <link href="styles/rickshaw.css" rel="stylesheet">
+  <link href="styles/main.css" rel="stylesheet">
+</head>
+<body>
+  <div class='sidebar'>
+    <span class="legend-title">Vitals</span>
+    <div class="column" id="vitals-legend1"></div>
+    <span class="legend-title2">CBC</span>
+    <div class="column" id="cbc-legend"></div>
+    <span class="legend-title3">Consumer Devices</span>
+    <div class="column" id="bmp-legend"></div>
+    <span class="other-title">X-Rays</span>
+    <span class="other-title">Therapy</span>
+    <span class="other-title">Blood Culture</span>
+    <hr />
+    <span class="patient_info">
+      <p>Patient: Charlie Bates <br />
+          45 | Male <br />
+          History: COPD <br />
+          Doctor: Justin Chan <br />
+          Status: ICU <br />
+
+
+      </p></span>
+  </div>
+  <div class="chart-wrapper">
+    <div class="column">
+      <div id="chart1"></div>
+      <div id="chart1-part2"></div>
+      <div id="chart2"></div>
+      <div id="chart3"></div>
+      <div id="buffer"> </div>
+      <div id="timeline-xray"> </div>
+      <div id="timeline-therapy"> </div>
+      <div id="timeline-bc"> </div>
+      <div id="slider"></div>
+      <div id="xray"></div>
+    </div>
+  </div>
+
+  <script src="javascript/jquery-2.1.3.min.js"></script>
+  <script src="javascript/jquery-ui.min.js"></script>
+  <script src="javascript/d3.v3.min.js" charset="utf-8"></script>
+  <script src="javascript/rickshaw.js" charset="utf-8"></script>
+  <script src="javascript/client.js"></script>
+  <script src="javascript/michael.js"></script>
+  <link href="styles/michael.css" rel="stylesheet">
+</body>
+</html>

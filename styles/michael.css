@@ -1,0 +1,113 @@
+#msg_xray0 {
+    background: url('pic/xray_zoom2.jpg');
+    background-size: 100%;
+    height: 800px;
+    width: 500px;
+    position: fixed;
+    background-repeat: no-repeat;
+    top: 100px;
+}
+
+#msg_xray1 {
+    background: url('pic/xray_zoom2.jpg');
+    background-size: 100%;
+    height: 800px;
+    width: 500px;
+    position: fixed;
+    background-repeat: no-repeat;
+    top: 100px;
+}
+
+#msg_xray2 {
+    background: url('pic/xray_zoom3.jpg');
+    background-size: 100%;
+    height: 800px;
+    width: 500px;
+    position: fixed;
+    background-repeat: no-repeat;
+    top: 100px;
+}
+
+.msg_therapy {
+     background: url('pic/blood_culture.jpg');
+    background-size: 80%;
+    height: 600px;
+    width: 500px;
+    position: fixed;
+    background-repeat: no-repeat;
+    top: 100px;
+}
+#msg_bc0 {
+    background: url('pic/blood_culture.jpg');
+    background-size: 80%;
+    height: 600px;
+    width: 500px;
+    position: fixed;
+    background-repeat: no-repeat;
+    top: 100px;
+}
+#msg_bc1 {
+    background: url('pic/blood_culture.jpg');
+    background-size: 80%;
+    height: 600px;
+    width: 500px;
+    position: fixed;
+    background-repeat: no-repeat;
+    top: 100px;
+}
+
+#msg_bc2 {
+    background: url('pic/blood_culture2.jpg');
+    background-size: 80%;
+    height: 600px;
+    width: 500px;
+    position: fixed;
+    background-repeat: no-repeat;
+    top: 50px;
+}
+
+#timeline-xray .annotation {
+    background: url('pic/xray_icon.png');
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+#timeline-bc .annotation {
+    background: url('pic/blood_icon.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 30px;
+    margin-top: -4px;
+}
+
+#timeline-therapy .annotation {
+    background: url('pic/therapy.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 30px;
+    margin-top: -4px;
+}
+
+.annotation .content {
+    height: 1px;
+    width: 1px;
+}
+
+
+.other-title {
+    font-size: 30px;
+}
+
+.brand {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+#buffer {
+    height: 30px;
+    width: 100%;
+}
+/*cr 0.8 to 1.1*/

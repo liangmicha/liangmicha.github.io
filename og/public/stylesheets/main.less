@@ -1,0 +1,120 @@
+@import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
+@import "dashboard.css";
+@import "timeline";
+
+
+body {
+  font-family: 'Arimo', sans-serif;
+  padding-top: 70px;
+  max-width: 100%;
+}
+
+nav {
+  width: 100%;
+}
+
+ul.nav-sidebar {
+  li {
+    color: #666;
+    font-size: 18px;
+    padding: 5px 10px;
+  }
+  em {
+    font-weight: 700;
+    font-style: normal;
+  }
+}
+
+.row:not(.siderow) {
+  padding-left: 15%;
+}
+
+
+.chart {
+  width: 800px;
+  margin: 0 auto;
+}
+
+div:not(#timeline) {
+  svg {
+    margin: 0 auto;
+    path.dimple-line {
+      stroke-width: 6px;
+    }
+  }
+}
+
+#timeline {
+  position: relative;
+  height: 100px;
+  path, circle {
+    stroke: #666;
+    fill: #999;
+  }
+
+  svg {
+    g {
+      stroke: #666;
+
+      padding-top: 15px;
+    }
+  }
+}
+
+#chart2 {
+  path,circle {
+    stroke: #33FF33;
+  }
+  rect.dimple-legend {
+    fill: #33FF33!important;
+    stroke: #33FF33!important;
+  }
+}
+
+span.timeline-label {
+  position: absolute;
+  top: 20%;
+  left: 10px;
+  font-weight: 700;
+  font-color: #666;
+}
+
+.modal-backdrop.in {
+  opacity: 0.9;
+}
+
+.modal-content {
+  .xray-item {
+    width: 50%;
+    margin: 0 auto;
+    float: left;
+    img {
+      width: 100%;
+      margin: 0 auto;
+      padding: 25px;
+      clear: right;
+    }
+    .modal-label {
+      padding: 10px;
+      width: 150px;
+      margin: 0 auto;
+      text-align: center;
+      color: #ff0000;
+      font-weight: 700;
+      font-size: 24px;
+    }
+  }
+}
+
+
+#chart1, #chart2 {
+  .dimple-axis {
+    font-size: 20px!important;
+    text {
+      font-size: 20px!important;
+    }
+  }
+  text {
+    font-size: 14px!important;
+  }
+}
